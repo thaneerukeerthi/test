@@ -1,7 +1,7 @@
 
 | Tailwind Custom Property | Description |
 |--------------------------|-------------|
-| Small | small button |
+| [Small] = true | small button |
 | Medium | Medium button |
 | Large | Large button |
 | Primary | Background color green(#7eac8c) and hover border color green |
