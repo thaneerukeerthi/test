@@ -18,10 +18,12 @@ This Markdown file provides an overview of the button component, its usage, cust
 | [isSquare] = "true" | It will creates Square button with curved corners |
 | [Plain] = "true" | It will give Border radious 3px, border color green, font normal |
 | [CheckMark_Icon] = "true" | It will creates Check mark icon |
-| [Title] = "'hello'" | Give Name of the Button in string. Here hello is the nameof the button |
+| [Title] = "'hello'" | Give Name of the Button in string. Here hello is the name of the button |
+| [Pointer_None] = "true" | It will disable the button and don't allow the cursor |
 
+## Example
 
+<cui-button [Title]="'Submit'" [Small]="true" [isRounded]="true"></cui-button>
+It will create small rounded submit button 
 
-
-
- 
+![Alt text](../assets/img/Button/Title.png)
