@@ -21,9 +21,11 @@ This Markdown file provides an overview of the button component, its usage, cust
 | [Title] = "'hello'" | Give Name of the Button in string. Here hello is the name of the button |
 | [Pointer_None] = "true" | It will disable the button and don't allow the cursor |
 
+*Note: By default, without specifying any size attribute, the button will be rendered in an extra-small size. Each additional property modifies the default styling to create buttons of different sizes, shapes, colors, and behavior.
+
 ## Example
 
 <cui-button [Title]="'Submit'" [Small]="true" [isRounded]="true"></cui-button>
-It will create small rounded submit button 
+This specific button, indicated by the "cui-button" tag, is set to display a small, rounded "Submit" button based on the attributes and their assigned values. 
 
 ![Alt text](https://img.freepik.com/free-vector/ballpoint-pen-school-stationary_78370-631.jpg)
