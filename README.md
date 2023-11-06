@@ -27,6 +27,7 @@ This Markdown file provides an overview of the button component, its usage, cust
 
 ```html
 <cui-button [Title]="'Submit'" [Small]="true" [isRounded]="true"></cui-button>
+```
 This specific button, indicated by the "cui-button" tag, is set to display a small, rounded "Submit" button based on the attributes and their assigned values. 
 
 ![Alt text](https://img.freepik.com/free-vector/ballpoint-pen-school-stationary_78370-631.jpg)
