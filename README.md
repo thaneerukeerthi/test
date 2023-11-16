@@ -1,33 +1,49 @@
-# Button Component
+# Modal Component
 
 ## Overview
-This button component is designed using Tailwind CSS. It can be easily customized and integrated into your web projects.
+This modal component is designed using Tailwind CSS. It can be easily customized and integrated into your web projects.
 
 ## Usage
-This Markdown file provides an overview of the button component, its usage, customization details, an example of the button, and a code snippet demonstrating how to use it. You can adjust the styles and details based on your specific needs.
+This Markdown file provides an overview of the modal component, its usage, customization details, an example of the modal, and a code snippet demonstrating how to use it. You can adjust the styles and details based on your specific needs.
 
 
-| Tailwind Custom Property | Description |
+| Modal Custom Properties | Description |
 |--------------------------|-------------|
-| [Small] = "true" | It will creates small button |
-| [Medium] = "true" |It will creates Medium button |
-| [Large] = "true" | It will creates Large button |
-| [Primary] = "true" | It will fill Background color with green(#7eac8c) and when we hover on button it will give border color green |
-| [Secondary] = "true" | It will fill Background color with orange(#bdaf7f) and when we hover on button it will give border color orange |
-| [isRounded] = "true" | It will creates full rounded button |
-| [isSquare] = "true" | It will creates Square button with curved corners |
-| [Plain] = "true" | It will give Border radious 3px, border color green, font normal |
-| [CheckMark_Icon] = "true" | It will creates Check mark icon |
-| [Title] = "'hello'" | Give Name of the Button in string. Here hello is the name of the button |
-| [Pointer_None] = "true" | It will disable the button and don't allow the cursor |
+| [Small] = "true" | Generates a small-sized modal. |
+| [Medium] = "true" | Generates a medium-sized modal. |
+| [Large] = "true" | Generates a large-sized modal. |
+| [Title] = "'password'" | Specifies the modal title as a string, for example, 'password'. |
+| [Keypoints] = "true" | Displays points as keypoints; mandatory for point display |
+| [point] = "['length 12', 'include space']" | Displays keypoints such as 'length 12' and 'include space'. |
+| [Content] = "'It must be 8 characters'" | Displays the content within the modal, for example, 'It must be 8 characters'. |
+| [StartButton] = "true" | Places a button at the bottom right of the modal. |
+| [CenterButton] = "true" | Places a button at the bottom center of the modal. |
+| [EndButton] = "true" | Places a button at the bottom left of the modal. |
 
-*Note: By default, without specifying any size attribute, the button will be rendered in an extra-small size. Each additional property modifies the default styling to create buttons of different sizes, shapes, colors, and behavior.
+| Button Custom Properties | Description |
+|--------------------------|-------------|
+| [isSquareValue] = "true" | Generates a square-shaped button with curved corners. |
+| [isRoundedValue] = "true" | Creates a fully rounded button. |
+| [isPlainValue] = "true" | Applies a border radius of 3px, sets the border color to green, and uses a normal font. |
+| [isMediumValue] = "true" | Creates a button in a small size. |
+| [isLargeValue] = "true" | Creates a button in a large size. |
+| [isSmallValue] = "true" | Creates a button in a medium size. |
+| [isPrimaryValue] = "true" | Fills the background color with green (#7eac8c) and, on hover, changes the border color to green.|
+| [isSecondaryValue] = "true" | Fills the background color with orange (#bdaf7f) and, on hover, changes the border color to orange. |
+| [hasCheckMarkIcon] = "true" | Adds a check mark icon to the button. |
+| [isPointerNone] = "true" | Disables the button and disallows the cursor interaction. |
+| [ButtonTitle] = "['Cancle', 'Submit']" | Sepecifies the name of the button. here 'Cancle' and 'Submit' are the name of the buttons. It will create buttons based on name quantity. |
 
 ## Example
 
 ```html
-<cui-button [Title]="'Submit'" [Small]="true" [isRounded]="true"></cui-button>
+<cui-modal [Title]="'password'" [Content]="'disply content here'"></cui-modal>
 ```
-This specific button, indicated by the "cui-button" tag, is set to display a small, rounded "Submit" button based on the attributes and their assigned values. 
+It defines a modal component with a title "password" and content that displays the text "display content here.
 
-![Alt text](https://img.freepik.com/free-vector/ballpoint-pen-school-stationary_78370-631.jpg)
+## Images
+
+| Combinations | images |
+|--------------|---------|
+| modal | ![Alt text](../assets/img/modal/modal.png) |
+ 
