@@ -6,7 +6,7 @@ This modal component is designed using Tailwind CSS. It can be easily customized
 ## Usage
 This Markdown file provides an overview of the modal component, its usage, customization details, an example of the modal, and a code snippet demonstrating how to use it. You can adjust the styles and details based on your specific needs.
 
-
+## Modal Properties
 | Modal Custom Properties | Description |
 |--------------------------|-------------|
 | [Small] = "true" | Generates a small-sized modal. |
@@ -20,6 +20,8 @@ This Markdown file provides an overview of the modal component, its usage, custo
 | [CenterButton] = "true" | Places a button at the bottom center of the modal. |
 | [EndButton] = "true" | Places a button at the bottom left of the modal. |
 
+
+## Button Properties
 | Button Custom Properties | Description |
 |--------------------------|-------------|
 | [isSquareValue] = "true" | Generates a square-shaped button with curved corners. |
